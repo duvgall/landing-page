@@ -1,0 +1,41 @@
+header{ 
+    background-color: #1F2937;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+h2{
+    color: #1F2937;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+footer{
+    background-color: #1F2937;
+}
+
+.hero {
+    background-color: #1F2937; /*hero area background color*/
+}
+.hero-header-text {         /*header menu and paragraph under hero text*/
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.button-call {              /*button and call to action*/
+    background-color: #3882F6;
+}
+
+.quote-area {
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
