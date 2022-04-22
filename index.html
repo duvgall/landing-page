@@ -8,16 +8,16 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header> <!--flex container for two divs-->
+    <header class="header-container"> <!--flex container for two divs-->
         <div>
         <img src="#" alt="Header Logo">
         </div>
         <div>
-        <ul>        <!--nested flex container-->
+        <ul class="menu-list">        <!--nested flex container-->
             <li><a href="#" class="hero-header-text">header link one</a></li>
             <li><a href="#" class="hero-header-text">header link two</a></li>
             <li><a href="#" class="hero-header-text">header link three</a></li>
-        </ul>
+        </ul >
         </div>
     </header>
     <div class="hero"> <!--Hero section of page and flex container-->
@@ -34,13 +34,13 @@
     </div>
     <div>
         <h2>Some random information</h2>
-         <div> <!--flex container for images-->
+         <div class="info-imgs"> <!--flex container for images-->
              <img src="#" alt="image">
              <img src="#" alt="image">
              <img src="#" alt="image">
              <img src="#" alt="image">
          </div>
-         <div> <!--flex container for text below images-->
+         <div class="info-text"> <!--flex container for text below images-->
              <p>this is some subtext below an image or illustration</p>
              <p>this is some subtext below an image or illustration</p>
              <p>this is some subtext below an image or illustration</p>
@@ -57,6 +57,8 @@
         <div>
             <h3>Call to action</h3>
             <p>Sign up for our product by clicking the button right over there</p>
+        </div>
+        <div>
             <button class="button-call">Sign up</button>
         </div>
     </div>

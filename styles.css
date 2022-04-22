@@ -16,14 +16,34 @@ h2{
 
 footer{
     background-color: #1F2937;
+    text-align: center;
+}
+
+.header-container {
+    display: flex;
+    justify content: space-between;
+}
+
+.menu-list {
+
 }
 
 .hero {
     background-color: #1F2937; /*hero area background color*/
+    display: flex;
 }
 .hero-header-text {         /*header menu and paragraph under hero text*/
     color: #E5E7EB;
     font-size: 18px;
+}
+
+.info-imgs {
+    display: flex;
+    flex: 1;
+}
+
+.info-text {
+    display: flex;
 }
 
 .button-call {              /*button and call to action*/
@@ -38,4 +58,9 @@ footer{
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+    text-align: center;
+}
+
+. call-to-action-area {
+    text-align: center;
 }
