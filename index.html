@@ -8,31 +8,39 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
+    <header> <!--flex container for two divs-->
+        <div>
         <img src="#" alt="Header Logo">
-        <ul>        <!--flex-container-->
+        </div>
+        <div>
+        <ul>        <!--nested flex container-->
             <li><a href="#" class="hero-header-text">header link one</a></li>
             <li><a href="#" class="hero-header-text">header link two</a></li>
             <li><a href="#" class="hero-header-text">header link three</a></li>
         </ul>
+        </div>
     </header>
-    <div class="hero"> <!--Hero section of page-->
+    <div class="hero"> <!--Hero section of page and flex container-->
+        <div>
         <h1>This website is awesome</h1>
         <p class="hero-header-text">Text that goes under main title and is a lower
             contrast and smaller font.
         </p>
-        <img src="#" alt="image placeholder">
         <button class="button-call">Sign up</button>
+        </div>
+        <div>
+        <img src="#" alt="image placeholder">
+        </div>
     </div>
     <div>
         <h2>Some random information</h2>
-         <div>
+         <div> <!--flex container for images-->
              <img src="#" alt="image">
              <img src="#" alt="image">
              <img src="#" alt="image">
              <img src="#" alt="image">
          </div>
-         <div>
+         <div> <!--flex container for text below images-->
              <p>this is some subtext below an image or illustration</p>
              <p>this is some subtext below an image or illustration</p>
              <p>this is some subtext below an image or illustration</p>
